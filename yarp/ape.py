@@ -1,3 +1,5 @@
+#rsa
+
 from sympy import mod_inverse
 from Crypto.Util.number import long_to_bytes
 
@@ -13,4 +15,6 @@ t = (p-1)*(q-1)
 
 d = mod_inverse(e, t)
 
-print(long_to_bytes(pow(c, d, n)))
+print(pow(c, d, n))
+
+print(long_to_bytes(pow(c, d, n)).decode('utf-8'))

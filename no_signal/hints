@@ -1,0 +1,5 @@
+gmic a.jpg b.jpg -blend xor -o result.png
+
+tesseract result.png ouput flag
+
+echo "xor_is_the_ultimate_truth" | sha256sum 

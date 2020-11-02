@@ -1,0 +1,8 @@
+
+open in audacity
+
+reverse the track by going to effects menu tab
+
+then reduce the speed to 50%
+
+

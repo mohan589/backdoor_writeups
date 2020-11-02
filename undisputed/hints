@@ -1,0 +1,1 @@
+sudo mount -o loop file.ext4 /mnt
